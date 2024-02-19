@@ -1,0 +1,82 @@
+{% include "header.html" %}
+
+
+<div class="container py-3">
+
+
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 style="color: white" class="display-4 fw-normal ">Pricing</h1>
+      <p style="color: white" class="fs-5 ">Get the best quality for the best price</p>
+    </div>
+
+
+  <main>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Mixing</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R1000<small class="text-body-secondary fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Full seps mix</li>
+              <li></li>
+              <li>Dj pack</li>
+
+            </ul>
+            <a href="{{ url_for('contact') }}">
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Make Booking</button>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Master</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R500<small class="text-body-secondary fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Clean Master</li>
+              <li>DJ pack</li>
+
+            </ul>
+
+            <a href="{{ url_for('contact') }}">
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Make Booking</button>
+              </a>
+          </div>
+        </div>
+      </div>
+      <Main class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Creative Studio session</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R1500<small class="text-body-secondary fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>4 hour studio session </li>
+                <li>with CivilTheSound</li>
+
+
+            </ul>
+            <a href="{{ url_for('contact') }}">
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Make Booking</button>
+              </a>
+
+          </div>
+    </div>
+      </Main>
+  </Main>
+
+
+
+       {% include "footer.html" %}
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
