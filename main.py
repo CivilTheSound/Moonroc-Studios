@@ -45,7 +45,7 @@ def contact():
                 connection.starttls()
                 connection.login(user=my_email, password=my_password)
                 connection.sendmail(from_addr=my_email, to_addrs=friend_email,
-                                    msg=f"Message{form.message}\nFrom: {form.name}\n Email: {form.email}")
+                                    msg=f"Message{form.message}\nFrom: {form.name}\n Email: {form.email}\nAlmost There")
                 connection.close()
             print("worked")
             return redirect(url_for('home'))
