@@ -3,17 +3,18 @@
 
   <section>
 
-  <div class="px-4 pt-5 my-5 text-center border-bottom" style="
+  <div class="px-4 pt-5 my-5 text-center border-bottom container" style="
   background: black;
   background-size: 180% 180%;
   font color: white;
   animation: gradient-animation 18s ease infinite;">
     <font color="white"><h1 class="display-4 fw-bold text-body-emphasis"></h1></font>
       <img src="static/images/home.png" width="800"
-     height="400">
+     height="400" style="max-width: 100%">
+        <p style="color: white" class="lead mb-4">Welcome to Moonroc Studios, The Best Sound In Town</p>
     <div class="col-lg-6 mx-auto">
 
-      <p style="color: white" class="lead mb-4">Welcome to Moonroc Studios, The Best Sound In Town</p>
+
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
 
         <a href="{{ url_for('contact') }}"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Book Session</button>
